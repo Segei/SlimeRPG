@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Units
 {
-    [CreateAssetMenu(menuName = "LevelUpBufs", fileName = "GameLogic/LevelUp")]
+    [CreateAssetMenu(menuName = "GameLogic/LevelUp", fileName = "LevelUpBuffs")]
     public class LevelUp : ScriptableObject
     {
         public InfoLevel Health;
